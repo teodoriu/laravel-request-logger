@@ -1,12 +1,12 @@
 {
-  "name": "prettus/laravel-request-logger",
+  "name": "bteodorwork/laravel-request-logger",
   "description": "HTTP request logger middleware for Laravel",
   "keywords": ["laravel", "logger", "request", "response"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Anderson Andrade",
-      "email": "contato@andersonandra.de"
+      "name": "Teodor B.",
+      "email": ""
     }
   ],
   "require": {
