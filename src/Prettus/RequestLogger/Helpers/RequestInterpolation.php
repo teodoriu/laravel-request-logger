@@ -38,6 +38,7 @@ class RequestInterpolation implements Interpolable {
             if( isset($output[1]) )
             {
                 $value = $this->resolveVariable($output[0], $output[1]);
+                if(is_array($value)) $value = json_encode($value);
                 $text = str_replace($output[0], $value, $text);
             }
         }
